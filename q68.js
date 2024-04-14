@@ -1,4 +1,6 @@
+"use strict";
 //Multiplying Decimals: Create a function that accepts two decimal numbers and returns their product. Round the result to two decimal places.
+Object.defineProperty(exports, "__esModule", { value: true });
 function multdec(value1, value2) {
     return +(value1 * value2).toFixed(2);
 }

@@ -1,6 +1,8 @@
+"use strict";
 //Make a smartphone object create a simple way to keep track of a smartphone details, include details like mode, brand & other key feature like how much storage it has the size of screen & how long its battery last. 
+Object.defineProperty(exports, "__esModule", { value: true });
 //Smartphone details:
-var smartphone = {
+let smartphone = {
     brand: "Sony",
     model: "Xperia",
     specs: {

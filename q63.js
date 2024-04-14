@@ -1,10 +1,12 @@
+"use strict";
 //Shape shifter: write a program that can describe either a cricle or a rectangle using special types alias, including unqiue properties for each shape. 
+Object.defineProperty(exports, "__esModule", { value: true });
 //Describing Shape (Circle & Rectangle)
-var circle = {
+let circle = {
     kind: "circle",
     radius: 5,
 };
-var rectangle = {
+let rectangle = {
     kind: 'rectangle',
     width: 4,
     lenght: 9,
@@ -13,13 +15,13 @@ var rectangle = {
 console.log(circle);
 console.log(rectangle);
 //Describing triangle & square
-var triangle = {
+let triangle = {
     kind2: "Triangle",
     base: 7,
     height2: 9,
     side: 6,
 };
-var square = {
+let square = {
     kind2: "Square",
     side: 4,
 };
