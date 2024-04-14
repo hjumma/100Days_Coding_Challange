@@ -1,13 +1,15 @@
+"use strict";
 //Create a JavaScript snippet that calculates and logs how many days are left until New Year.
+Object.defineProperty(exports, "__esModule", { value: true });
 //Current Date
-var currentdate = new Date();
+let currentdate = new Date();
 //Current year
-var currentYear = currentdate.getFullYear();
+let currentYear = currentdate.getFullYear();
 // Set the target date to New Year's Day of the next year
-var targetDate = new Date(currentYear + 1, 0, 1);
+let targetDate = new Date(currentYear + 1, 0, 1);
 // Calculate the difference in milliseconds between the current date and the target date
-var differenceInMilliseconds = targetDate.getTime() - currentdate.getTime();
+let differenceInMilliseconds = targetDate.getTime() - currentdate.getTime();
 // Convert milliseconds to days
-var daysLeft = Math.ceil(differenceInMilliseconds / (1000 * 60 * 60 * 24));
+let daysLeft = Math.ceil(differenceInMilliseconds / (1000 * 60 * 60 * 24));
 // Log the result
-console.log("There are ".concat(daysLeft, " days left until New Year."));
+console.log(`There are ${daysLeft} days left until New Year.`);
