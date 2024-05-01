@@ -1,4 +1,6 @@
+"use strict";
 // Determine if a given year is a leap year using comparison operators.
+Object.defineProperty(exports, "__esModule", { value: true });
 // // Leap years are divisible by 4 but not by 100 
 function isLeapYear(year) {
     return (year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0);

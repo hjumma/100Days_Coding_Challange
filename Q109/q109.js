@@ -1,6 +1,8 @@
+"use strict";
 //Write an if statement that logs "Good Morning" if the current time is before 12 PM
-var currentTime = new Date();
-var currentHour = currentTime.getHours();
+Object.defineProperty(exports, "__esModule", { value: true });
+let currentTime = new Date();
+let currentHour = currentTime.getHours();
 console.log(currentHour);
 if (currentHour < 12) {
     console.log("Good Morning");
